@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-coursework-emaily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackielpy/nodejs-coursework-emaily.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackielpy/nodejs-coursework-emaily/issues"
+  },
+  "homepage": "https://github.com/jackielpy/nodejs-coursework-emaily#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

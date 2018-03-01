@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jackielpy/nodejs-coursework-emaily#readme",
   "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.1",
     "mongoose": "^5.0.7",
     "passport": "^0.4.0",

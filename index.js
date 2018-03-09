@@ -16,8 +16,8 @@ require('./services/passport');
 
 // DB connection
 mongoose.connect(keys.mongoUri, {
-  user: "admin",
-  pass: "Pa$$w0rd"
+  user: keys.mongoUser,
+  pass: keys.mongoPassword
 }, function(err, db) {});
 
 const app = express();

@@ -15,10 +15,7 @@ require('./models/User');
 require('./services/passport');
 
 // DB connection
-mongoose.connect(keys.mongoUri, {
-  user: keys.mongoUser,
-  pass: keys.mongoPassword
-}, function(err, db) {
+mongoose.connect(keys.mongoUri, function(err, db) {
   console.log(err)
 });
 

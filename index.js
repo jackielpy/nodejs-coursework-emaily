@@ -15,9 +15,7 @@ require('./models/User');
 require('./services/passport');
 
 // DB connection
-mongoose.connect(keys.mongoUri, function(err, db) {
-  console.log(err)
-});
+mongoose.connect(keys.mongoUri, function(err, db) {});
 
 const app = express();
 
